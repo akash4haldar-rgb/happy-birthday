@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srikanth - Build My Site</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav id="desktop-nav">
+        <div class="logo">Srikanth</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#posts">Posts</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button class="sub">Subscribe!</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HAMBURGER MENU -->
+
+    <nav id="hamburger-nav">
+        <div class="logo">Srikanth</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#posts" onclick="toggleMenu()">Posts</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                <li><button class="sub" onclick="toggleMenu()">Subscribe!</button></li>
+            </div>
+        </div>
+    </nav>
+
+    <hr>
+
+    <section id="home">
+        <div class="home-left">
+            <p>Hello, I'm</p>
+            <h1>Srikanth</h1>
+            <p>A Tech Enthusiast</p>
+            <div class="sub-box">
+                <input type="text" placeholder="Enter your email...">
+                <button class="sub">Subscribe!</button>
+            </div>
+        </div>
+        <div class="home-right">
+            <img src="https://i.imgur.com/YzQEygR.jpeg" alt="profile-pic">
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="about">
+        <h1>About</h1>
+        <p>Hello, I'm Srikanth! I love exploring the world of tech especially AI and Electronics.
+            Right now, I'm working on a exciting project called "Build My Site" which I hope to turn into a startup.
+            Outside of tech, I enjoy learning about business, design, and history. I'm also keen on staying updated with
+            current events.
+            As a tech enthusiast and aspiring entrepreneur, I'm excited about what the future holds!</p>
+    </section>
+
+    <hr>
+
+    <section id="posts">
+        <h1>Posts</h1>
+        <h4>I haven't posted anything yet.</h6>
+    </section>
+
+    <hr>
+
+    <section id="#contact">
+        <h1>Contact</h1>
+        <div class="contact-box">
+            <div class="contact-box-element">
+                <img src="https://cdn.icon-icons.com/icons2/1182/PNG/512/1490129338-rounded29_82200.png" alt="email"
+                    width="20px">
+                <p><a href="mailto:srikanth.9x@gmail.com">srikanth.9x@gmail.com</a></p>
+            </div>
+            <div class="contact-box-element">
+                <img src="https://cdn.icon-icons.com/icons2/2428/PNG/512/instagram_black_logo_icon_147122.png"
+                    alt="instagram" width="20px">
+                <p><a href="https://www.instagram.com/srikanth9x">Instagram</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <p class="copy">Copyright &#169; 2024 Srikanth founder of Build My Site. All Rights Reserved.</p>
+        <p class="power">Powered by Build My Site</p>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
